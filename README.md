@@ -1,6 +1,6 @@
 <div>
-    <h2 style="aligh-items:center" > MY-PORTFOLIO</h2>
-    <a href="https://sammed-sankonatti.github.io/my-portfolio/"> Live Link</a>
+    <h2> MY-PORTFOLIO</h2>
+    <h1><a href="https://sammed-sankonatti.github.io/my-portfolio/"> Live Link</a></h1>
     <h2> LANDING PAGE:
     <img src="./components/images/landing-1.png" />
     <img src="./components/images/pic-1.png" />
