@@ -1,2 +1,1 @@
-# my-portfolio
-This is entirely my idea of building my own portfolio to showcase my work
+<h2>My-portfolio: <a href="https://sammed-sankonatti.github.io/my-portfolio/"> Live Link</a></h2>
