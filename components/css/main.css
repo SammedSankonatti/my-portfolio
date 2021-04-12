@@ -487,6 +487,7 @@ a img {
 .footer a:hover {
     color: #4b5664
 }
+/* ///////////////////////////////////////////////////////////////////////////////////// */
 
 #about {
     width: 90%;
@@ -552,6 +553,50 @@ a img {
 }
 
     
+#competative_section {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width:550px) {
+    #competative_section {
+        width: 85%
+    }
+}
+
+.section_details {
+    text-align: center;
+    margin: 5px auto
+}
+
+.sites {
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sites p {
+    font-size: 16px
+}
+
+.site{
+    padding: 0px 5px;
+}
+
+@media only screen and (min-width:550px) {
+    .sites {
+        flex-wrap: nowrap;
+        font-size: 70px
+    }
+}
+
+
 
 .footer {
     background: #1488CC;
