@@ -597,6 +597,74 @@ a img {
 }
 
 
+#education {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width:550px) {
+    #education {
+        width: 85%
+    }
+}
+
+.education_heading {
+    text-align: center;
+    margin: 5px auto
+}
+
+/* .education_details {
+    text-align: center;
+     /* font-size: 60px;  */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}  */
+
+.education1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.details{
+    margin-left: 5px;
+}
+
+.main_education{
+    color: rgb(13, 13, 56);
+}
+
+.date{
+    color: rgb(38, 49, 25);
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.education_details p {
+    font-size: 16px
+}
+
+.education1{
+    padding: 0px 5px;
+}
+
+@media only screen and (min-width:550px) {
+    .education_details {
+        flex-wrap: nowrap;
+        font-size: 25px
+    }
+    .education_image{
+        height: 100px;
+    }
+}
+
+
+
 
 .footer {
     background: #1488CC;
