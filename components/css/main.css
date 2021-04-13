@@ -639,18 +639,27 @@ a img {
 }
 
 .date{
-    color: rgb(38, 49, 25);
+    color: rgb(126, 179, 67);
     font-size: large;
     font-weight: 600;
 }
 
 
 .education_details p {
-    font-size: 20px
+    font-size: 20px;
+    color: coral;
 }
 
 .details{
     padding-left: 15px;
+}
+
+.results{
+    color: rgb(23, 23, 138);
+}
+
+.school_names{
+    color: rgb(139, 8, 129);
 }
 
 @media only screen and (min-width:550px) {
