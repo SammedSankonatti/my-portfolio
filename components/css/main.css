@@ -673,7 +673,30 @@ a img {
 }
 
 
+#projects{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
 
+
+@media only screen and (min-width:550px) {
+    #projects {
+        width: 85%
+    }
+
+.projects_list{
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+ .project_header {
+    text-align: center;
+    margin: 5px auto
+    }
 
 
 
